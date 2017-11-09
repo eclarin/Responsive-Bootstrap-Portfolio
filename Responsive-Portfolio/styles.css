@@ -1,0 +1,94 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 100%;
+  color: #333;
+  background: #efeee7;
+}
+
+header{
+	padding: 25px;
+	margin-bottom: 10px;
+	font-size: 50px;
+	background-color: #ebebeb;
+	position: relative;
+	z-index: 1;
+
+}
+
+.about{
+	padding: 10px;
+	margin-bottom: 25px;
+	font-size: 15px;
+	background-color: #ebebeb;
+	float: right;
+	z-index: 2;
+}
+
+.container-index{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#panel, #bio, #form-list, #links{
+	float: left;
+}
+
+#bio, #form-list, #links{
+	width: 70%;
+	background-color: #ebebeb;
+	padding: 50px;
+}
+
+#panel{
+	width: 30%;
+	background-color: #ebebeb;
+	padding: 30px;
+	text-align: center;
+}
+
+#bio-image{
+	width: 200px;
+ 	height: 200px;
+  	margin-right: 10px;
+}
+
+#panel-image{
+	width: 50px;
+ 	height: 50px;
+  	margin-right: 10px;
+}
+
+/* Contact.html code */
+
+.form{
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* Portfolio.html code */
+
+#portfolio-image{
+	width: 200px;
+ 	height: 200px;
+  	margin-right: 10px;
+}
+
+@media screen and (max-width: 960px) {
+
+  body {	
+    background-color: #ebebeb;
+
+  }
+
+
+  .container-index, .form {
+    width: 500px;
+  }
+}
